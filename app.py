@@ -5,10 +5,10 @@ import pptx
 from pptx.util import Inches, Pt
 import os
 import json
-from dotenv import load_dotenv
+
 import streamlit as st
 
-load_dotenv()
+
 
 from groq import Groq
 
